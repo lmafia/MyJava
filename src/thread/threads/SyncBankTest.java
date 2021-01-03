@@ -1,6 +1,7 @@
 package thread.threads;
 
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * @author L_MaFia
@@ -9,9 +10,9 @@ import java.util.Random;
  * @date 2020/12/29
  */
 public class SyncBankTest {
-    private static final int ACCOUNTS = 5;
+    private static final int ACCOUNTS = 10;
     private static final double INITIAL_BALANCE = 1000;
-    private static final double MAX_AMOUNT = 2 * 1000;
+    private static final double MAX_AMOUNT = 1 * 1000;
     private static final int DELAY = 100;
 
     public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class SyncBankTest {
                         double amount = MAX_AMOUNT * Math.random();
 //                        bank.transfer(formAmount, toAccount, amount);
                         bank.transferWithSync(formAmount, toAccount, amount);
-                        Thread.sleep((long) (DELAY * Math.random()));
+                        Thread.sleep((long) (DELAY * ThreadLocalRandom.current().nextLong()));
 
                     }
                 } catch (InterruptedException e) {
