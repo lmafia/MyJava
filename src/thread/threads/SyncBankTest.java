@@ -4,11 +4,11 @@ import java.util.Random;
 
 /**
  * @author L_MaFia
- * @classname UnsyncBankTest.java
- * @description 不加锁的多线程demo
+ * @classname SyncBankTest.java
+ * @description 加锁的多线程demo
  * @date 2020/12/29
  */
-public class UnsyncBankTest {
+public class SyncBankTest {
     private static final int ACCOUNTS = 100;
     private static final double INITIAL_BALANCE = 1000L;
     private static final double MAX_AMOUNT = 1000L;
@@ -23,8 +23,10 @@ public class UnsyncBankTest {
                     while (true) {
                         int toAccount = (int) (bank.getAccountsSize() * Math.random());
                         double amount = MAX_AMOUNT * Math.random();
-                        bank.transfer(formAmount, toAccount, amount);
+//                        bank.transfer(formAmount, toAccount, amount);
+                        bank.transferWithSync(formAmount, toAccount, amount);
                         Thread.sleep((long) (DELAY * Math.random()));
+
                     }
                 } catch (InterruptedException e) {
                     System.out.println(e);
