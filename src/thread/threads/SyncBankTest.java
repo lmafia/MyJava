@@ -14,19 +14,22 @@ public class SyncBankTest {
     private static final double INITIAL_BALANCE = 1000;
     private static final double MAX_AMOUNT = 1 * 1000;
     private static final int DELAY = 100;
+    public static final ThreadLocal<Random> randomThreadLocal = ThreadLocal.withInitial(Random::new);
 
     public static void main(String[] args) {
         Bank bank = new Bank(ACCOUNTS, INITIAL_BALANCE);
+
+
         for (int i = 0; i < ACCOUNTS; i++) {
             int formAmount = i;
             Runnable r = () -> {
                 try {
                     while (true) {
-                        int toAccount = (int) (bank.getAccountsSize() * Math.random());
+                        int toAccount = (int) (bank.getAccountsSize() * ThreadLocalRandom.current().nextLong());
                         double amount = MAX_AMOUNT * Math.random();
 //                        bank.transfer(formAmount, toAccount, amount);
                         bank.transferWithSync(formAmount, toAccount, amount);
-                        Thread.sleep((long) (DELAY * ThreadLocalRandom.current().nextLong()));
+                        Thread.sleep((long) (DELAY * randomThreadLocal.get().nextLong()));
 
                     }
                 } catch (InterruptedException e) {
