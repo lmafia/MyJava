@@ -9,9 +9,9 @@ import java.util.Random;
  * @date 2020/12/29
  */
 public class SyncBankTest {
-    private static final int ACCOUNTS = 100;
-    private static final double INITIAL_BALANCE = 1000L;
-    private static final double MAX_AMOUNT = 1000L;
+    private static final int ACCOUNTS = 5;
+    private static final double INITIAL_BALANCE = 1000;
+    private static final double MAX_AMOUNT = 2 * 1000;
     private static final int DELAY = 100;
 
     public static void main(String[] args) {
