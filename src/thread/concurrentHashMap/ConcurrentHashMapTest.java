@@ -22,13 +22,14 @@ import java.util.stream.Stream;
 public class ConcurrentHashMapTest {
     private static ConcurrentHashMap<String, Long> map = new ConcurrentHashMap<>();
     public static int TARGET_TIMES = 10;
+
     private static void process(Path file) {
         try (Scanner in = new Scanner(file)) {
             while (in.hasNext()) {
                 String word = in.next();
 //                map.merge(word, 1L, (var1, var2) -> var1 + var2);
 //                map.merge(word, 1L, Long::sum);
-                map.compute(word, (k, v) -> v == null ? 1 : v+1);
+                map.compute(word, (k, v) -> v == null ? 1 : v + 1);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -43,6 +44,7 @@ public class ConcurrentHashMapTest {
     }
 
     public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
 //        获取CPU核心数
         int processors = Runtime.getRuntime().availableProcessors();
 //        创建线程池
@@ -69,7 +71,7 @@ public class ConcurrentHashMapTest {
 //            或者线程被中断，抛出InterruptedException
 //            然后返回true（shutdown请求后所有任务执行完毕）或false（已超时）
             executor.awaitTermination(10, TimeUnit.SECONDS);
-            map.forEach((k, v) -> {
+            map.forEach(Long.MAX_VALUE, (k, v) -> {
                 if (v >= TARGET_TIMES) {
                     System.out.println(k + " occurs " + v + " times");
                 }
@@ -77,6 +79,7 @@ public class ConcurrentHashMapTest {
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
-
+        long endTime = System.currentTimeMillis();
+        System.out.println("programme run time:" + (endTime - startTime) + "ms");
     }
 }
