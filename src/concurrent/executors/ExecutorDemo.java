@@ -92,13 +92,23 @@ public class ExecutorDemo {
                Callable<Long> task = ()->occurrences(word, path);
                tasks.add(task);
            }
+
            ExecutorService executor = Executors.newCachedThreadPool();
            Instant now = Instant.now();
            List<Future<Long>> results = executor.invokeAll(tasks);
-           long total = 0L;
-           for(Future<Long> result : results){
-               total += result.get();
+           ExecutorCompletionService<Long> service = new ExecutorCompletionService<>(executor);
+           for (Callable<Long>task : tasks){
+               service.submit(task);
            }
+           long total = 0L;
+           for (int i = 0; i< tasks.size(); i++){
+               total += service.take().get();
+           }
+//           System.out.println(word + "的出现次数为"+ total);
+//           total = 0L;
+//           for(Future<Long> result : results){
+//               total += result.get();
+//           }
            Instant end = Instant.now();
            System.out.println(word + "的出现次数为"+ total);
            System.out.println("花费的时间为：" + (Duration.between(now,end).toMillis() + "ms"));
