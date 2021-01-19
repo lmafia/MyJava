@@ -1,4 +1,4 @@
-package thread.threads;
+package concurrent.threads;
 
 /**
  * @author L_MaFia

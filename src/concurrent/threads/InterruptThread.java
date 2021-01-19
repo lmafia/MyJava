@@ -1,4 +1,4 @@
-package thread.threads;
+package concurrent.threads;
 
 /**
  * @author L_MaFia
@@ -40,7 +40,7 @@ public class InterruptThread {
             System.out.println(i);
 //            if (i == 20){
 //                System.out.println(Thread.interrupted());
-//                thread.interrupt();
+//                concurrent.interrupt();
 //            }
         }
 

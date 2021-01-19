@@ -1,4 +1,4 @@
-package thread.threads;
+package concurrent.threads;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;

@@ -1,4 +1,4 @@
-package thread.concurrentHashMap;
+package concurrent.concurrentHashMap;
 
 import java.io.IOException;
 import java.nio.file.Files;

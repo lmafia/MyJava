@@ -1,4 +1,4 @@
-package thread.bankThreads;
+package concurrent.bankThreads;
 
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;

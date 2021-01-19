@@ -1,4 +1,4 @@
-package thread.bankThreads;
+package concurrent.bankThreads;
 
 import java.util.Arrays;
 import java.util.concurrent.locks.Condition;
