@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Time;
 
 /**
  * @author L_MaFia
@@ -51,18 +52,27 @@ class TalkingClock{
         /*
          *  匿名内部类
          */
-        ActionListener actionListener = new ActionListener(){
-                @Override
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("the time is " + System.currentTimeMillis()+ "ms");
-//           内部类可以访问 外部的beep
-                if(beep){
-                    Toolkit.getDefaultToolkit().beep();
-                }
+//        ActionListener actionListener = new ActionListener(){
+//                @Override
+//            public void actionPerformed(ActionEvent e) {
+//                System.out.println("the time is " + System.currentTimeMillis()+ "ms");
+////           内部类可以访问 外部的beep
+//                if(beep){
+//                    Toolkit.getDefaultToolkit().beep();
+//                }
+//            }
+//        };
+//        TimePrinter timePrinter = new TimePrinter();
+//        Timer timer = new Timer(interval, actionListener);
+        /*
+         * lambda
+         */
+        Timer timer = new Timer(interval, e -> {
+            System.out.println("the time is " + System.currentTimeMillis() + "ms");
+            if (beep) {
+                Toolkit.getDefaultToolkit().beep();
             }
-        };
-        TimePrinter timePrinter = new TimePrinter();
-        Timer timer = new Timer(interval, actionListener);
+        });
         timer.start();
     }
     /*
