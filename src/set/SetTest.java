@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class SetTest {
     public static void main(String[] args) {
-        HashSet<String> words = new HashSet<>(16);
+        HashSet<String> words = new HashSet<String>(16, (float) 0.75);
         long totalTime = 0;
         try (Scanner in = new Scanner(System.in)) {
             while (in.hasNext()) {
