@@ -19,11 +19,11 @@ public class TreeSetTest {
         items.add(new Item("Toaster", 1234));
         items.add(new Item("Widget", 2345));
         items.add(new Item("Modem", 3456));
-        System.out.println("sort before :" + items);
+        System.out.println("" + items);
 
         TreeSet<Item> sortByDescription = new TreeSet<>(Comparator.comparing(Item::getDescription));
         sortByDescription.addAll(items);
-        System.out.println("sort after :" + sortByDescription);
+        System.out.println("" + sortByDescription);
 
     }
 }
