@@ -16,7 +16,7 @@ Release Date: June 25, 2008 [EBook #11]
 
 Language: English
 
-Character set encoding: UTF-8
+Character collection.set encoding: UTF-8
 
 *** START OF THIS PROJECT GUTENBERG EBOOK ALICE’S ADVENTURES IN WONDERLAND ***
 
@@ -261,7 +261,7 @@ had got so much into the way of expecting nothing but out-of-the-way
 things to happen, that it seemed quite dull and stupid for life to go
 on in the common way.
 
-So she set to work, and very soon finished off the cake.
+So she collection.set to work, and very soon finished off the cake.
 
 *      *      *      *      *      *      *
 
@@ -862,7 +862,7 @@ like a Jack-in-the-box, and up I goes like a sky-rocket!”
 “So you did, old fellow!” said the others.
 
 “We must burn the house down!” said the Rabbit’s voice; and Alice
-called out as loud as she could, “If you do, I’ll set Dinah at you!”
+called out as loud as she could, “If you do, I’ll collection.set Dinah at you!”
 
 There was a dead silence instantly, and Alice thought to herself, “I
 wonder what they _will_ do next! If they had any sense, they’d take the
@@ -897,7 +897,7 @@ will be the best plan.”
 
 It sounded an excellent plan, no doubt, and very neatly and simply
 arranged; the only difficulty was, that she had not the smallest idea
-how to set about it; and while she was peering about anxiously among
+how to collection.set about it; and while she was peering about anxiously among
 the trees, a little sharp bark just over her head made her look up in a
 great hurry.
 
@@ -923,7 +923,7 @@ all the while, till at last it sat down a good way off, panting, with
 its tongue hanging out of its mouth, and its great eyes half shut.
 
 This seemed to Alice a good opportunity for making her escape; so she
-set off at once, and ran till she was quite tired and out of breath,
+collection.set off at once, and ran till she was quite tired and out of breath,
 and till the puppy’s bark sounded quite faint in the distance.
 
 “And yet what a dear little puppy it was!” said Alice, as she leant
@@ -1134,7 +1134,7 @@ violent blow underneath her chin: it had struck her foot!
 
 She was a good deal frightened by this very sudden change, but she felt
 that there was no time to be lost, as she was shrinking rapidly; so she
-set to work at once to eat some of the other bit. Her chin was pressed
+collection.set to work at once to eat some of the other bit. Her chin was pressed
 so closely against her foot, that there was hardly room to open her
 mouth; but she did it at last, and managed to swallow a morsel of the
 lefthand bit.
@@ -1230,7 +1230,7 @@ down again into its nest. Alice crouched down among the trees as well
 as she could, for her neck kept getting entangled among the branches,
 and every now and then she had to stop and untwist it. After a while
 she remembered that she still held the pieces of mushroom in her hands,
-and she set to work very carefully, nibbling first at one and then at
+and she collection.set to work very carefully, nibbling first at one and then at
 the other, and growing sometimes taller and sometimes shorter, until
 she had succeeded in bringing herself down to her usual height.
 
@@ -1365,7 +1365,7 @@ pleased to have got into a conversation.
 Alice did not at all like the tone of this remark, and thought it would
 be as well to introduce some other subject of conversation. While she
 was trying to fix on one, the cook took the cauldron of soup off the
-fire, and at once set to work throwing everything within her reach at
+fire, and at once collection.set to work throwing everything within her reach at
 the Duchess and the baby—the fire-irons came first; then followed a
 shower of saucepans, plates, and dishes. The Duchess took no notice of
 them even when they hit her; and the baby was howling so much already,
@@ -1467,7 +1467,7 @@ there could be _no_ mistake about it: it was neither more nor less than
 a pig, and she felt that it would be quite absurd for her to carry it
 further.
 
-So she set the little creature down, and felt quite relieved to see it
+So she collection.set the little creature down, and felt quite relieved to see it
 trot away quietly into the wood. “If it had grown up,” she said to
 herself, “it would have made a dreadfully ugly child: but it makes
 rather a handsome pig, I think.” And she began thinking over other
@@ -1581,7 +1581,7 @@ CHAPTER VII.
 A Mad Tea-Party
 
 
-There was a table set out under a tree in front of the house, and the
+There was a table collection.set out under a tree in front of the house, and the
 March Hare and the Hatter were having tea at it: a Dormouse was sitting
 between them, fast asleep, and the other two were using it as a
 cushion, resting their elbows on it, and talking over its head. “Very
@@ -2559,7 +2559,7 @@ The Lobster Quadrille
 The Mock Turtle sighed deeply, and drew the back of one flapper across
 his eyes. He looked at Alice, and tried to speak, but for a minute or
 two sobs choked his voice. “Same as if he had a bone in his throat,”
-said the Gryphon: and it set to work shaking him and punching him in
+said the Gryphon: and it collection.set to work shaking him and punching him in
 the back. At last the Mock Turtle recovered his voice, and, with tears
 running down his cheeks, he went on again:—
 
@@ -2583,7 +2583,7 @@ then, when you’ve cleared all the jelly-fish out of the way—”
 
 “Each with a lobster as a partner!” cried the Gryphon.
 
-“Of course,” the Mock Turtle said: “advance twice, set to partners—”
+“Of course,” the Mock Turtle said: “advance twice, collection.set to partners—”
 
 “—change lobsters, and retire in same order,” continued the Gryphon.
 
@@ -3145,7 +3145,7 @@ trial one way up as the other.”
 
 As soon as the jury had a little recovered from the shock of being
 upset, and their slates and pencils had been found and handed back to
-them, they set to work very diligently to write out a history of the
+them, they collection.set to work very diligently to write out a history of the
 accident, all except the Lizard, who seemed too much overcome to do
 anything but sit with its mouth open, gazing up into the roof of the
 court.
@@ -3212,7 +3212,7 @@ nobody, which isn’t usual, you know.”
 
 “It isn’t directed at all,” said the White Rabbit; “in fact, there’s
 nothing written on the _outside_.” He unfolded the paper as he spoke,
-and added “It isn’t a letter, after all: it’s a set of verses.”
+and added “It isn’t a letter, after all: it’s a collection.set of verses.”
 
 “Are they in the prisoner’s handwriting?” asked another of the jurymen.
 
@@ -3264,7 +3264,7 @@ They all returned from him to you,
 
 If I or she should chance to be
     Involved in this affair,
-He trusts to you to set them free,
+He trusts to you to collection.set them free,
     Exactly as we were.
 
 My notion was that you had been
@@ -3425,7 +3425,7 @@ Creating the works from print editions not protected by U.S. copyright
 law means that no one owns a United States copyright in these works,
 so the Foundation (and you!) can copy and distribute it in the United
 States without permission and without paying copyright
-royalties. Special rules, set forth in the General Terms of Use part
+royalties. Special rules, collection.set forth in the General Terms of Use part
 of this license, apply to copying and distributing Project
 Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm
 concept and trademark. Project Gutenberg is a registered trademark,
@@ -3462,7 +3462,7 @@ destroy all copies of Project Gutenberg-tm electronic works in your
 possession. If you paid a fee for obtaining a copy of or access to a
 Project Gutenberg-tm electronic work and you do not agree to be bound
 by the terms of this agreement, you may obtain a refund from the
-person or entity to whom you paid the fee as set forth in paragraph
+person or entity to whom you paid the fee as collection.set forth in paragraph
 1.E.8.
 
 1.B. "Project Gutenberg" is a registered trademark. It may only be
@@ -3528,7 +3528,7 @@ redistributing or providing access to a work with the phrase "Project
 Gutenberg" associated with or appearing on the work, you must comply
 either with the requirements of paragraphs 1.E.1 through 1.E.7 or
 obtain permission for the use of the work and the Project Gutenberg-tm
-trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+trademark as collection.set forth in paragraphs 1.E.8 or 1.E.9.
 
 1.E.3. If an individual Project Gutenberg-tm electronic work is posted
 with the permission of the copyright holder, your use and distribution
@@ -3544,7 +3544,7 @@ work or any other work associated with Project Gutenberg-tm.
 
 1.E.5. Do not copy, display, perform, distribute or redistribute this
 electronic work, or any part of this electronic work, without
-prominently displaying the sentence set forth in paragraph 1.E.1 with
+prominently displaying the sentence collection.set forth in paragraph 1.E.1 with
 active links or immediate access to the full terms of the Project
 Gutenberg-tm License.
 
@@ -3599,10 +3599,10 @@ provided that
 
 1.E.9. If you wish to charge a fee or distribute a Project
 Gutenberg-tm electronic work or group of works on different terms than
-are set forth in this agreement, you must obtain permission in writing
+are collection.set forth in this agreement, you must obtain permission in writing
 from both the Project Gutenberg Literary Archive Foundation and The
 Project Gutenberg Trademark LLC, the owner of the Project Gutenberg-tm
-trademark. Contact the Foundation as set forth in Section 3 below.
+trademark. Contact the Foundation as collection.set forth in Section 3 below.
 
 1.F.
 
@@ -3644,14 +3644,14 @@ opportunity to receive the work electronically in lieu of a refund. If
 the second copy is also defective, you may demand a refund in writing
 without further opportunities to fix the problem.
 
-1.F.4. Except for the limited right of replacement or refund set forth
+1.F.4. Except for the limited right of replacement or refund collection.set forth
 in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO
 OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
 LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
 
 1.F.5. Some states do not allow disclaimers of certain implied
 warranties or the exclusion or limitation of certain types of
-damages. If any disclaimer or limitation set forth in this agreement
+damages. If any disclaimer or limitation collection.set forth in this agreement
 violates the law of the state applicable to this agreement, the
 agreement shall be interpreted to make the maximum disclaimer or
 limitation permitted by the applicable state law. The invalidity or

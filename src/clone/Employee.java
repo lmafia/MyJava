@@ -22,6 +22,7 @@ public class Employee implements Cloneable {
     @Override
     public Employee clone() throws CloneNotSupportedException {
         Employee cloned = (Employee) super.clone();
+//        Date 需要深拷贝
         cloned.hireDate = (Date) hireDate.clone();
         return cloned;
     }

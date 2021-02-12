@@ -1,8 +1,5 @@
-package treeSet;
+package collection.treeSet;
 
-import com.sun.deploy.util.StringUtils;
-
-import java.awt.event.ItemEvent;
 import java.util.Comparator;
 import java.util.Objects;
 import java.util.TreeSet;
