@@ -18,8 +18,11 @@ public class TreeSetTest {
         items.add(new Item("Modem", 3456));
         System.out.println("" + items);
 
+//        用下面的Comparator的方式，不会使用Item的compareTo来比较
         TreeSet<Item> sortByDescription = new TreeSet<>(Comparator.comparing(Item::getDescription));
-        sortByDescription.addAll(items);
+        sortByDescription.add(new Item("Toaster", 1234));
+        sortByDescription.add(new Item("Widget", 2345));
+        sortByDescription.add(new Item("Modem", 3456));
         System.out.println("" + sortByDescription);
 
     }
@@ -67,9 +70,9 @@ class Item implements Comparable<Item> {
         return diff != 0 ? diff : description.compareTo(o.description);
 //        return description.compareTo(o.description);
     }
-    @Override
-    public int hashCode(){
-        return Objects.hash(description, partNumber);
-    }
+//    @Override
+//    public int hashCode(){
+//        return Objects.hash(description, partNumber);
+//    }
 
 }
