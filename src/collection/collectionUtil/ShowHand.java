@@ -39,7 +39,7 @@ public class ShowHand {
 
   public void initPlayerCards() {
     for ( int i = 0; i < players.length; i++) {
-      if (players[i] != null && !players[i].equals("")) {
+      if (players[i] != null && !"".equals(players[i])) {
         playersCards[i] = new LinkedList<String>();
       }
     }
@@ -83,6 +83,8 @@ public class ShowHand {
     sh.initPlayerCards();
     sh.showAllCards();
     System.out.println("-----------------------------");
+    sh.deliverCard("A");
+    sh.deliverCard("A");
     sh.deliverCard("A");
     sh.showPlayerCards();
   }
