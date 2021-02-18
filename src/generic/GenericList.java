@@ -21,7 +21,15 @@ public class GenericList {
 //    下面代码会引起编译错误
 //    strList.add(5);
 
-    strList.forEach(str -> System.out.println(((String)str).length()));
+//    strList.forEach(str -> System.out.println(((String)str).length()));
+
+    test(strList);
   }
 
+/**
+ * 使用类型通配符? 去除类型警告
+ */
+  public static void test (List<?> c) {
+    c.forEach(System.out::println);
+  }
 }
