@@ -11,7 +11,7 @@ import java.util.Collection;
  * @Created by Administrator
  */
 public class GenericMethodTest {
-  static <T> void fromArrayToCollection(T[] a, Collection<T> c) {
+  private static <T> void fromArrayToCollection(T[] a, Collection<T> c) {
     for (T t : a) {
       c.add(t);
     }
